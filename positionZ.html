@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Z-index</title>
+    <style>
+       body{background-color: salmon;}
+    .img1 { position: absolute;top:0;left:0;z-index: 2; width: 20vw;height: 20vh;}
+    .img2 { position: absolute;top:0;left:0;z-index: 1;width: 30vw;height: 30vh;}
+    .img3 { position: absolute;top:0;left:0;z-index: 0;width: 40vw;height: 40vh;}
+
+    .img4 { position: absolute;top:0;left:0;z-index: -1; width: 50vw;height: 50vh;}
+    .img5 { position: absolute;top:0;left:0;z-index: -2;width: 60vw;height: 60vh;}
+    .img6 { position: absolute;top:0;left:0;z-index: -3;width: 70vw;height: 70vh;}
+    </style>
+</head>
+<body>
+    <h1>z-index</h1>
+    <img class="img1" src="./1.jpg"   alt="none">
+    <img class="img2" src="./3.jpg"   alt="none">
+    <img class="img3" src="./4.jpg"   alt="none">
+
+    <img class="img4" src="./1.jpg"   alt="none">
+    <img class="img5" src="./3.jpg"   alt="none">
+    <img class="img6" src="./4.jpg"   alt="none">
+    <p> the z-index property specifies the stack order of an element. An element 
+         withe greater stack oder is always in front of element with a lower stack order.</p>
+</body>
+</html>
