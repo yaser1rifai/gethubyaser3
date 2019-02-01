@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+* {box-sizing: border-box;
+font-family: 'Source sans Pro',sans-serif;
+font-weight:bold ;}
+    
+div {
+   display: inline-block;
+  border: 2px solid #2e3d49;
+  width: 200px;
+  height: 100px; 
+}
+  
+div:nth-child(odd) {background: #02b3e4;}
+div:nth-child(even) {background: #ecc81a;}
+
+.absolute{ position: absolute; top:50px;left:50px;}
+
+</style>
+
+
+</head>
+<body>
+    <div>  </div>
+    <div>  </div>
+
+ <div class="absolute">  Absolute Parent of absolute
+    <div class="absolute">Absolute  child of absolute  </div>
+</div>
+    
+    </body>
+    </html>
+
+
+    </body>
+    </html>
