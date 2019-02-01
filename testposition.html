@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+    
+    body {margin-top:0;}
+    .divFirstLine{display: inline-block; border: 2px solid #2e3d49}
+div {
+  width: 300px;
+  border: 2px solid #2e3d49;
+  width: 300px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+div:nth-child(even) {background: #02b3e4;}
+div:nth-child(odd) {background: #ecc81a;}
+
+.relative{ position: relative; top: 20px; left: 20px;}
+.absolute{ position: absolute; left:300px;}
+
+
+.sticky{position:sticky;top:0;bottom:0;width:100%;height:100px;background-color: green !important;}
+.fixed{position:fixed;top:100px;right:0;background-color: red !important;}
+
+</style>
+
+
+</head>
+<body>
+    
+    <div class="divFirstLine"> Iam inline-block div11</div>
+    <div class="divFirstLine relative" > Iam inline-block  relative div22</div>
+    <div class="divFirstLine "> Iam inline-block div33</div>
+
+    <div > Random div1</div>
+    <div  class="absolute"  > Random div2</div>
+    <div > Random div3</div>
+    <div > Random div4</div>
+    <div > Random div5</div>
+    <div > Random div6</div>
+    <div > Random div7</div>
+    <div class="sticky" > I am foote 8</div>
+    <div > Random div9</div>
+    <div > Random div10</div>
+    <div  class="fixed">  I am fixed 11</div>
+    <div > Random div12</div>
+    <div > Random div13</div>
+    <div > Random div14</div>
+    <div > Random div15</div>
+    <div > Random div16</div>
+    <div > Random div17</div>
+    
+
+    
+</body>
+</html>
